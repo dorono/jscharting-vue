@@ -12,7 +12,7 @@
 			<div class="examplesItems">
 				<button
 					v-for="chart in [
-						'areaStep',
+						'organizationDown',
 						'mapChart',
 						'calendarChart',
 						'methodUpdate',
@@ -39,7 +39,7 @@
 <script>
 import { JSC } from 'jscharting-vue';
 
-import areaStep from './components/areaStep.vue';
+import organizationDown from './components/organizationDown.vue';
 import mapChart from './components/mapChart.vue';
 import calendarChart from './components/calendarChart.vue';
 import methodUpdate from './components/methodUpdate.vue';
@@ -52,11 +52,11 @@ export default {
 	name: 'app',
 	data() {
 		return {
-			selected: 'areaStep'
+			selected: 'organizationDown'
 		};
 	},
 	components: {
-		areaStep,
+		organizationDown,
 		mapChart,
 		calendarChart,
 		methodUpdate,
